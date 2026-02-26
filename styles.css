@@ -5,8 +5,8 @@
 
 :root {
     /* Colors */
-    --primary: #6C5CE7;
-    --primary-dark: #5A4FCF;
+    --primary: #2563EB;      /* Blue */
+    --primary-dark: #1D4ED8; /* Dark Blue */
     --secondary: #8F85F3;
     --secondary-light: #A29BFE;
     
@@ -32,7 +32,7 @@
     /* Shadows & Effects */
     --shadow-sm: 0 4px 12px rgba(43, 43, 43, 0.05);
     --shadow-md: 0 12px 32px rgba(43, 43, 43, 0.08);
-    --shadow-btn: 0 8px 16px rgba(108, 92, 231, 0.25);
+    --shadow-btn: 0 8px 16px rgba(37, 99, 235, 0.25); /* Adjusted to match blue */
     --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
@@ -118,7 +118,7 @@ ul {
 .btn-primary:hover {
     background: var(--primary-dark);
     transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(108, 92, 231, 0.3);
+    box-shadow: 0 12px 24px rgba(37, 99, 235, 0.3); /* Adjusted to match blue */
 }
 
 .btn-secondary {
